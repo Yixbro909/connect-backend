@@ -44,7 +44,7 @@ app.use("/userjoinedroom", usersJoinedRoomRouter);
 app.use("/recentchats", recentChatRouter);
 
 //connect to socket
-const liveURL = "https://connect-eta-smoky.vercel.app";
+const liveURL = "https://connect-frontend-six.vercel.app";
 const localURL = "http://localhost:3000";
 
 const io = new Server(server, {
